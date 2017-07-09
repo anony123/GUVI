@@ -1,0 +1,39 @@
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+char s;
+{
+	public static void main (String[] args)
+{
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        System.out.print("Enter the character you want to check:");
+        s = (char) bf.read();
+        switch(s)
+        {
+            case 'a':
+            System.out.println("The given character "+s+" is vowel");
+            break;
+ 
+            case 'e':
+            System.out.println("The given character "+s+" is vowel");
+            break;
+ 
+            case 'i':
+            System.out.println("The given character "+s+" is vowel");
+            break;
+ 
+            case 'o':
+            System.out.println("The given character "+s+" is vowel");
+            break;
+ 
+            case 'u':
+            System.out.println("The given character "+s+" is vowel");
+            break;
+ 
+            default:
+            System.out.println("The given character "+s+" is consonant");
+            break;
+}
+}
+}
